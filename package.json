@@ -1,0 +1,29 @@
+{
+  "name": "zdenekpasek-com",
+  "version": "1.0.0",
+  "description": "zdenekpasek-com",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TenZdenda/zdenekpasek.com.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Zdeněk Pašek",
+    "Website"
+  ],
+  "author": "Zdeněk Pašek",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/TenZdenda/zdenekpasek.com/issues"
+  },
+  "homepage": "https://github.com/TenZdenda/zdenekpasek.com#readme"
+}
